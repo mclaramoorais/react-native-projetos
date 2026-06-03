@@ -8,40 +8,39 @@ import {
   StyleSheet,
 } from "react-native";
 
-export default function TelaNoticias() {
+export default function TelaPerfil() {
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView>
         <Text style={styles.title}>
-          O impacto da tecnologia no mundo moderno
+          Moda e estilo no mundo contemporâneo
         </Text>
 
         <Image
           source={{
-            uri: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3",
+            uri: "https://images.unsplash.com/photo-1520975958225-8b9d6c2a2d5c",
           }}
           style={styles.image}
         />
 
         <View style={styles.content}>
           <Text style={styles.text}>
-            A tecnologia tem transformado de forma significativa a maneira como
-            vivemos, trabalhamos e nos comunicamos.
+            A moda é uma forma de expressão que reflete identidade, cultura e
+            estilo de vida. Ao longo dos anos, ela tem se transformado,
+            acompanhando mudanças sociais e tendências globais.
 
-            Nos últimos anos, áreas como desenvolvimento de software,
-            inteligência artificial, análise de dados e segurança da informação
-            cresceram rapidamente, abrindo novas possibilidades no mercado de
-            trabalho.
+            Atualmente, o setor da moda está cada vez mais conectado à
+            sustentabilidade, buscando materiais ecológicos e processos de
+            produção conscientes.
 
-            As empresas estão cada vez mais dependentes de soluções digitais,
-            automação de processos e inovação tecnológica.
+            As redes sociais também desempenham um papel importante, influenciando
+            tendências e aproximando marcas do público.
 
-            O trabalho remoto também se consolidou como uma realidade, trazendo
-            mais flexibilidade e novas formas de colaboração entre equipes ao
-            redor do mundo.
+            Além disso, o mercado fashion se tornou mais diverso e inclusivo,
+            valorizando diferentes estilos, corpos e culturas.
 
-            A tendência é que esse crescimento continue nos próximos anos,
-            tornando a tecnologia uma das áreas mais estratégicas da atualidade.
+            A moda continua evoluindo como uma forma de arte e comunicação,
+            refletindo a personalidade de cada indivíduo.
           </Text>
         </View>
       </ScrollView>
